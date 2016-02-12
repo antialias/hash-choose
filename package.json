@@ -1,6 +1,6 @@
 {
   "name": "hash-choose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "guarantees to return a value from a map given hash that returns an integer",
   "author": "",
   "scripts": {
