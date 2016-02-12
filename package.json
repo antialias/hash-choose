@@ -1,0 +1,36 @@
+{
+  "name": "hash-choose",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test": "mocha",
+    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "lint": "dibslint --root=."
+  },
+  "main": "index.js",
+  "pre-commit": {
+    "run": [
+      "gitlint"
+    ]
+  },
+  "devDependencies": {
+    "dibslint": "^1.2.4",
+    "mocha": "^2.3.4",
+    "pre-commit": "^1.1.2"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/hash-choose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antialias/hash-choose/issues"
+  },
+  "homepage": "https://github.com/antialias/hash-choose#readme",
+  "dependencies": {
+    "lodash.assign": "^4.0.2",
+    "lodash.memoize": "^4.0.1",
+    "lodash.values": "^4.0.0"
+  }
+}
