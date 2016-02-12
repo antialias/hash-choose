@@ -20,6 +20,6 @@ const getValue = hashChoose({
 getValue(23); // 'foo'
 getValue(134); // 'bar'
 getValue(134); // 'bar'
-getValue(700); // values(map)[700 % 3] => 'baz'
-getValue(899); // values(map)[899 % 3] => 'foo'
+getValue(700); // values(map)[(700 + 100) % 3] => 'baz'
+getValue(899); // values(map)[(899 + 100) % 3] => 'foo'
 ```
