@@ -1,5 +1,5 @@
 # hash-choose
-Exports a function that returns a function that maps a hash function to values, defaults to values(map[hash(string) if no key in map matches the hash and hash returns an integer.
+Exports a function that returns a function that maps a hash function to values, defaults to values(map[hash(string)]) if no key in map matches the hash and hash returns an integer.
 
 ##installation:
 ```sh
